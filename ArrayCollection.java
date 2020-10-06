@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayColllection<E> implements TypeCollection {
+public class ArrayCollection<E> implements TypeCollection {
 
     public static void main(String[] args) {
         ArrayList<String> ArrayList = new ArrayList<>();
