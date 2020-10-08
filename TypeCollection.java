@@ -12,9 +12,7 @@ public interface TypeCollection<E> {
     <E> void remove(E item); //– удаляет элемент
 
 
-    Object get(int index);
-
-    // <E> get  (int index);// – получение элемента по индексу
+    Object get(int index);    // <E> get  (int index);// – получение элемента по индексу
     void clear(); // – очищает
 
 }

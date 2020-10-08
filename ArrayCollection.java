@@ -3,10 +3,10 @@ import java.util.ArrayList;
 public class ArrayCollection<E> implements TypeCollection {
 
     public static void main(String[] args) {
-        ArrayList<String> ArrayList = new ArrayList<>();
-        ArrayList.add("a");
-        ArrayList.add("4");
-        ArrayList.add("5");
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("a");
+        arrayList.add("4");
+        arrayList.add("5");
     }
 
     @Override
